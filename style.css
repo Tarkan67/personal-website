@@ -52,6 +52,7 @@ header {
   background-color: white;
   height: 60px;
   background-color: hsl(163, 20%, 71%);
+  z-index: 1;
 }
 
 #nav-title {
@@ -113,6 +114,7 @@ header a:hover {
   padding: 0;
   overflow: hidden;
 }
+
 .card-header.card-image > img {
   display: block;
   width: 100%;
