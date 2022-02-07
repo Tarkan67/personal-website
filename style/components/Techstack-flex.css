@@ -1,0 +1,13 @@
+/* Techstack flex */
+
+.tech-flex {
+  display: flex;
+  align-items: strech;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.icon {
+  max-width: 2em;
+  max-height: 2em;
+}
