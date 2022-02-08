@@ -1,10 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-@import "style/variables.css";
-@import "style/base.css";
-@import "style/utils.css";
-@import "style/components/Nav-bar.css";
-/* colorhunt link https://colorhunt.co/palette/2f5d625e8b7ea7c4bcdfeeea */
-
 /* Card */
 
 .card-grid {
@@ -74,41 +67,4 @@
 
 .btn:hover {
   background: hsl(163, 20%, 81%);
-}
-
-/* Spliter */
-
-.splitter {
-  max-width: 20%;
-  display: flexbox;
-}
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/* Start text */
-
-.title-text {
-  max-width: 25rem;
-  padding-bottom: 1rem;
-}
-
-/* Techstack flex */
-
-.tech-flex {
-  display: flex;
-  align-items: strech;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
-.icon {
-  max-width: 2em;
-  max-height: 2em;
 }
